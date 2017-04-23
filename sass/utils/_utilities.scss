@@ -1,0 +1,108 @@
+
+//== Flexbox
+/*----------------------------------------*/
+.fl-box {
+	@include flex-box();
+}
+
+.fl-content-box {
+	@include flex-box-container();
+}
+
+.fl-stretch-box {
+	@extend %stretch-box;
+}
+
+.fl-row-box {
+	@extend %row-box;
+}
+
+
+//== Padding
+/*----------------------------------------*/
+.p-none {
+	padding: 0 !important;
+}
+
+.p-l-none {
+	padding-left: 0px !important;
+}
+
+.p-l-5 {
+	padding-left: 5px !important;
+}
+
+.p-r-5 {
+	padding-right: 5px !important;
+}
+
+.p-r-none {
+	padding-right: 0px !important;
+}
+
+//== Margin
+/*----------------------------------------*/
+.m-none {
+	margin: 0px !important;
+}
+
+.m-b-none {
+	margin-bottom: 0px !important;
+}
+.m-r {
+	margin-right: 10px;
+}
+
+//== Border
+/*----------------------------------------*/
+.b-none {
+	border: none;
+}
+
+//== show bootsrap dropdown into table cell
+/*----------------------------------------*/
+.cell-dropdown-visible {
+	overflow: visible;
+	white-space: normal;
+}
+
+//overflow visible for all table cell
+.table-cell-overflow-visible {
+	.ni-table > .ni-table-row-group > .ni-table-row > .ni-table-cell,
+	.ni-table > .ni-table-row > .ni-table-cell,
+	.table > tbody > tr > td {
+		overflow: visible !important;
+	}
+}
+
+
+//== Extra width height
+/*----------------------------------------*/
+.w-full {
+	width: 100%;
+}
+
+.w-320 {
+    width: 320px;
+}
+
+//== Position
+/*----------------------------------------*/
+.pos-rlt {
+	position: relative;
+}
+
+.pos-stc {
+	position: static !important;
+}
+
+.pos-abt {
+	position: absolute;
+}
+
+.pos-fix {
+	position: fixed;
+}
+
+//== Background color
+/*----------------------------------------*/

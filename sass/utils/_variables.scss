@@ -1,0 +1,99 @@
+//
+// Variables
+// --------------------------------------------------
+
+//== Sizes
+//
+//## Default font size 14px
+$font-size-base:          14px !default;
+$font-size-small:         ceil(($font-size-base * 0.7)) !default; // ~10px
+$font-size-medium:        ceil(($font-size-base * 0.72)) !default; // ~11px
+
+$font-size-large:         ceil(($font-size-base * 0.82)) !default; // ~12px
+$font-size-xlarge:        ceil(($font-size-base * 0.92)) !default; // ~13px
+
+//== Weights
+//
+//## Default font weight 400
+$font-weight-light:		  300 !default;
+$font-weight-regular:	  400 !default;
+$font-weight-bold:		  bold !default;
+$font-weight-base:		  $font-weight-regular;
+
+//== Families
+//
+$font-path:				  '../fonts/segoeui/segoe';
+$font-family-text:		  'Segoe Condensed' !default;
+$font-family-display:	  'Segoe Condensed' !default;
+$font-family-code:		  'Segoe Condensed' !default;
+$font-family-base:		  'Segoe Condensed' !default;
+
+$line-height-base:        1.5 !default; // 18/12
+$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~18px
+
+/*fixed setting height and width<<<-------*/
+/*----------------------------------------*/
+$mw-header-height:		   31px;
+$element-base-height:      18px !default;
+$element-small-height:	   24px !default;
+$element-large-height:     50px !default;
+
+/*fixed setting padding and margin<<<-----*/
+/*----------------------------------------*/
+$offset-base:				5px !default;
+$offset-medium:				10px !default;
+$offset-large:				15px !default;
+
+$padding-base-vertical:     6px !default;
+$padding-base-horizontal:   12px !default;
+
+$padding-large-vertical:    10px !default;
+$padding-large-horizontal:  16px !default;
+
+$padding-small-vertical:    5px !default;
+$padding-small-horizontal:  10px !default;
+
+$padding-xs-vertical:       1px !default;
+$padding-xs-horizontal:     5px !default;
+
+$line-height-large:         1.33 !default;
+$line-height-small:         1.5 !default;
+
+$border-radius-base:        4px !default;
+$border-radius-large:       6px !default;
+$border-radius-small:       3px !default;
+
+//-- Z-index master list
+//-- Warning: Avoid customizing these values.
+$zindex-navbar:            1000 !default;
+$zindex-dropdown:          1000 !default;
+$zindex-popover:           1060 !default;
+$zindex-tooltip:           1070 !default;
+$zindex-navbar-fixed:      1030 !default;
+$zindex-modal:             1040 !default;
+
+$gap-5x:			       5px  !default;
+$gap-4x:			       4px  !default;
+$gap-3x:			       3px  !default;
+$gap-2x:			       2px  !default;
+$gap-1x:			       1px  !default;
+
+//== Colors
+//
+//## Disabled cursor for form controls and buttons.
+$cursor-disabled:						not-allowed !default;
+$navbar-default-link-disabled-color:    #b5b5b5 !default;
+
+/* -----------------------------------*/
+/* --->>> Colors         <<<----------*/
+/* -----------------------------------*/
+$grey: #808080 !default;
+
+$base-color:				$grey !default;
+$white-color:				lighten($grey, 100%) !default;  //#ffffff	
+$black-color:				lighten($grey, 0%) !default;  //#000	
+
+$grey-dark :				#adadad;  //darken($grey, 38%) !default;  
+$grey-darker :				#616161;  //darken($grey, 25%) !default;  
+$grey-light :				#5f5f5f;  //lighten($grey, 37%) !default;  
+$grey-lighter :				#efeff0;  //lighten($grey, 94%) !default;

@@ -1,0 +1,96 @@
+
+@import "utils/variables";
+@import "utils/functions";
+@import "utils/mixins";
+@import "utils/placeholders";
+
+@import "vendors/bootstrap";
+@import "vendors-extensions/bootstrap";
+
+@import "vendors/font-awesome.min";
+
+@import "vendors/jquery-ui";
+@import "vendors/jquery-ui-structure";
+@import "vendors/jquery-ui-theme";
+@import "vendors-extensions/jquery-ui";
+
+@import "vendors/image-gallery";
+@import "vendors/toastr";
+@import "vendors/anguar-ui-tree-app";
+@import "vendors/angular-ui-tree";
+
+//@import "vendors/ng-tags-input";
+@import "vendors/flowchart";
+@import "vendors/onedatastyle";
+@import "vendors-extensions/ni-onedatastyle";
+
+@import "vendors/gridstack";
+@import "vendors/gridstack-extra";
+@import "vendors-extensions/gridstack";
+
+@import "vendors/onedatastyle";
+
+@import "vendors/jquery.mCustomScrollbar";
+@import "vendors/ng-img-crop";
+@import "vendors/animate";
+
+@import "base/base";
+
+@import "layout/window-main";
+@import "layout/navigation";
+@import "layout/section-main";
+@import "layout/window";
+@import "layout/grid";
+@import "layout/forms";
+
+//component
+@import "components/busy-indicator";
+@import "components/validation";
+@import "components/accordion";
+@import "components/table";
+@import "components/pagination";
+//
+@import "components/buttons";
+@import "components/file-upload";
+//
+@import "components/checkbox";
+//@import "components/textbox-dynamic";
+//
+@import "components/dropdown";
+@import "components/editable-dropdown";
+@import "components/editable-multiselect";
+@import "components/autocomplete";
+@import "components/multi-select";
+//
+@import "components/date-picker";
+@import "components/time-picker";
+@import "components/tag-input";
+//
+//@import "components/shift-profile";
+@import "components/tree-view";
+@import "components/clock";
+@import "components/application-form";
+@import "components/toggle-switch";
+
+
+
+@import "pages/login";
+@import "pages/dashboard";
+//@import "pages/login";
+
+//@import 'themes/theme';
+//@import 'themes/black';
+
+//@import
+//  'pages/home',
+//  'pages/contact';
+
+//@import
+//  'themes/theme',
+//  'themes/admin';
+
+@import "utils/extra";
+@import "utils/utilities";
+
+
+@import "utils/media-screen";

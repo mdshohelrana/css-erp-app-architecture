@@ -1,0 +1,121 @@
+
+/*.btn {
+    margin-right: 8px;
+}*/
+
+.angular-ui-tree-handle {
+    background: #f8faff;
+    border: 1px solid #dae2ea;
+    /*color: #7c9eb2;*/
+    padding: 2px 0 2px 2px;
+}
+
+.angular-ui-tree-handle:hover {
+    /*color: #438eb9;*/
+    background: #f4f6f7;
+    border-color: #dce2e8;
+}
+
+.angular-ui-tree-placeholder {
+    background: #f0f9ff;
+    border: 2px dashed #bed2db;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.group-title {
+    background-color: #687074 !important;
+    /*color: #FFF !important;*/
+}
+
+
+/* --- Tree --- */
+.tree-node {
+    border: 1px solid #cccccc;
+    background: #fbfbfb;
+    /*color: #7c9eb2;*/
+}
+.tree-node .checkbox {
+    margin-right: 8px;
+}
+
+.nodrop {
+    background-color: #f2dede;
+}
+
+.tree-node-content {
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+.tree-node-content a{
+    float: left;
+}
+.tree-node-content a span{
+	font-size: pxtopercent(14px);
+	margin-right: pxtoem(3px);
+}
+.tree-node-content > div{
+    float: left;
+    margin-right: 18px;
+    font-weight: 500;
+    line-height: 18px;
+}
+//.tree-node-content .btn:first-child{
+////    margin-right: 7px !important;
+//	padding: 0;
+//}
+.tree-node-content .btn{
+    margin-right: 2px !important;
+//	height: pxtoem(21px);
+}
+.tree-node-content .btn > span.fa {
+	color: #fff;
+	line-height: 1.77;
+}
+.tree-node-content input[type="text"]:first-child {
+    border: 1px solid #ccc;
+    float: left;
+    height: 30px !important;
+    line-height: 30px;
+    margin-right: 5px;
+    margin-top: -4px;
+    padding: 0 5px;
+    width: 50%;
+    margin-left: -4px;
+}
+.tree-node-content input[type="text"] {
+    border: 1px solid #ccc;
+    float: left;
+    height: 31px;
+    line-height: 31px;
+    margin-right: 5px;
+    margin-top: -4px;
+    padding: 0 5px;
+    width: 50%;
+    margin-left: -4px;
+    font-weight: 500;
+}
+.tree-node-content input:focus{
+    border-color: #66afe9 !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+
+.tree-handle {
+    padding: 10px;
+    background: #428bca;
+    /*color: #FFF;*/
+    margin-right: 10px;
+}
+
+.angular-ui-tree-handle:hover {
+}
+
+.angular-ui-tree-placeholder {
+    background: #f0f9ff;
+    border: 2px dashed #bed2db;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
